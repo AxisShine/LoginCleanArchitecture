@@ -1,4 +1,6 @@
-package use_case;
+package view;
+
+import use_case.SignupOutputData;
 
 public interface SignupOutputBoundary {
     void prepareSuccessView(SignupOutputData user);
